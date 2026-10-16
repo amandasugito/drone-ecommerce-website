@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>JCI — Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<header class="header-shell">
+  <div class="navbar">
+    <div class="logo"><a href="index.html">JCI</a></div>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="forum.html">Forum</a>
+      <a href="store.html">Store</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+
+<body>
+  <header role="shared"></header>
+
+  <section class="container contact-shell">
+
+    <h1 class="contact-title">Contact Us</h1>
+    <p class="contact-subtitle">
+      We're committed to providing clear, reliable support for every customer.
+      Leave us a message and we'll make sure you receive assistance.
+    </p>
+
+    <div class="contact-grid">
+
+      <div class="contact-info-column">
+
+        <div class="form-card form-card-left">
+          <strong>Address</strong>
+          <p class="contact-info">123 Innovation Street, Jakarta, Indonesia</p>
+        </div>
+
+        <div class="form-card form-card-left">
+          <strong>Email</strong>
+          <p class="contact-info">jci.drone@gmail.com</p>
+        </div>
+
+        <div class="form-card form-card-left">
+          <strong>Phone</strong>
+          <p class="contact-info">+62-8343-7343-43</p>
+        </div>
+      </div>
+
+      <form id="contactForm" class="form-card contact-form">
+
+        <div class="form-row">
+          <div>
+            <label for="firstName">First Name*</label>
+            <input id="firstName" class="input" type="text" placeholder="First name">
+            <div class="error" id="errFirst"></div>
+          </div>
+
+          <div>
+            <label for="lastName">Last Name*</label>
+            <input id="lastName" class="input" type="text" placeholder="Last name">
+            <div class="error" id="errLast"></div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="phone">Phone Number*</label>
+            <input id="phone" class="input" type="text" placeholder="08xxxxxxxxxx">
+            <div class="error" id="errPhone"></div>
+          </div>
+
+          <div>
+            <label for="email">Email*</label>
+            <input id="email" class="input" type="email" placeholder="you@example.com">
+            <div class="error" id="errEmail"></div>
+          </div>
+        </div>
+
+        <div>
+          <label for="message">Message* (max 1000 words)</label>
+          <textarea id="message" class="input" placeholder="Tell us how we can help..."></textarea>
+          <div class="error" id="errMessage"></div>
+        </div>
+
+        <div class="tos-row">
+          <input id="tos" type="checkbox">
+          <label for="tos">I agree to JCI terms of service</label>
+        </div>
+        <div class="error" id="errTos"></div>
+
+        <div class="form-actions">
+          <button class="btn" type="submit">Send Message</button>
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer-shell">
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <div class="footer-logo">JCI</div>
+      <p class="footer-desc">
+        Driven by innovation and craftsmanship, JCI strives to provide high-performance drones that elevate possibilities worldwide      </p>
+    </div>
+
+    <div class="footer-right">
+      <div class="footer-column">
+        <strong>Quick Links</strong>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="forum.html">Forum</a>
+        <a href="store.html">Store</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="footer-column contacts">
+        <strong>Contacts</strong>
+        <p>Email: jci.drone@gmail.com</p>
+        <p>Phone: +62-8343-7343-43</p>
+        <p>Address: 123 Innovation Street, Jakarta</p>
+      </div>
+      <div class="footer-column">
+        <strong>Follow Us</strong>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
